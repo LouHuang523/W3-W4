@@ -1,0 +1,33 @@
+.usually {
+    margin-top: 96px;
+    margin-bottom: 32px;
+    padding-left: 16px;
+    font-size: 48px;
+    font-weight: bold;
+    border-left: 8px solid #AA0601;
+}
+
+.ask {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.question-box h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.question-box p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+@media (max-width:767px) {
+    .usually {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+}
